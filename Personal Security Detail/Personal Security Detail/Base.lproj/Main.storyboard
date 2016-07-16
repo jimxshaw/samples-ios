@@ -80,6 +80,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5yL-kz-yUJ">
                                 <rect key="frame" x="20" y="367" width="80" height="30"/>
                                 <state key="normal" title="Night mode"/>
+                                <connections>
+                                    <action selector="enableNightMode:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CBS-s6-dOX"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -87,7 +90,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="237" y="300"/>
+            <point key="canvasLocation" x="155" y="332"/>
         </scene>
     </scenes>
 </document>

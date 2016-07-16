@@ -2,13 +2,15 @@
 //  ViewController.swift
 //  Personal Security Detail
 //
-//  Created by James Shaw on 7/16/16.
+//  Created by Jim Shaw on 7/16/16.
 //  Copyright © 2016 Jimmy Shaw. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +22,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func enableNightMode(sender: AnyObject) {
+        view.backgroundColor = UIColor.darkGrayColor()
+    }
 
 }
 
