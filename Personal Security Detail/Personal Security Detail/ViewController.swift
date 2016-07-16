@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func enableNightMode(sender: AnyObject) {
+        
         view.backgroundColor = UIColor.darkGrayColor()
         
         let allSubviews = view.subviews
@@ -32,7 +33,6 @@ class ViewController: UIViewController {
                 myLabel.textColor = UIColor.whiteColor()
             }
         }
-        
     }
 
 }
