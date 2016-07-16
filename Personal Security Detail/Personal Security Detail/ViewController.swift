@@ -9,8 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +22,17 @@ class ViewController: UIViewController {
 
     @IBAction func enableNightMode(sender: AnyObject) {
         view.backgroundColor = UIColor.darkGrayColor()
+        
+        let allSubviews = view.subviews
+        
+        for eachView in allSubviews {
+            if eachView is UILabel {
+                // To cast from a general type to a specific type, we must use !.
+                let myLabel = eachView as! UILabel
+                myLabel.textColor = UIColor.whiteColor()
+            }
+        }
+        
     }
 
 }
