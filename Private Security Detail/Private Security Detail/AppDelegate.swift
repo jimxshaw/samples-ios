@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Personal Security Detail
+//  Private Security Detail
 //
-//  Created by Jim Shaw on 7/16/16.
+//  Created by Jim Shaw on 7/17/16.
 //  Copyright © 2016 Jimmy Shaw. All rights reserved.
 //
 

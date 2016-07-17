@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Personal Security Detail.xcscheme</key>
+		<key>Private Security Detail.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>E99E69791D3A920A00D6AB1A</key>
+		<key>C47F7DA11D3BD2D200FF80EA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

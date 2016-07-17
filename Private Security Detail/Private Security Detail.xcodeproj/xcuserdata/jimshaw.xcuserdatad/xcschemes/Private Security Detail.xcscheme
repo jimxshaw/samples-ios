@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E99E69791D3A920A00D6AB1A"
-               BuildableName = "Personal Security Detail.app"
-               BlueprintName = "Personal Security Detail"
-               ReferencedContainer = "container:Personal Security Detail.xcodeproj">
+               BlueprintIdentifier = "C47F7DA11D3BD2D200FF80EA"
+               BuildableName = "Private Security Detail.app"
+               BlueprintName = "Private Security Detail"
+               ReferencedContainer = "container:Private Security Detail.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E99E69791D3A920A00D6AB1A"
-            BuildableName = "Personal Security Detail.app"
-            BlueprintName = "Personal Security Detail"
-            ReferencedContainer = "container:Personal Security Detail.xcodeproj">
+            BlueprintIdentifier = "C47F7DA11D3BD2D200FF80EA"
+            BuildableName = "Private Security Detail.app"
+            BlueprintName = "Private Security Detail"
+            ReferencedContainer = "container:Private Security Detail.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E99E69791D3A920A00D6AB1A"
-            BuildableName = "Personal Security Detail.app"
-            BlueprintName = "Personal Security Detail"
-            ReferencedContainer = "container:Personal Security Detail.xcodeproj">
+            BlueprintIdentifier = "C47F7DA11D3BD2D200FF80EA"
+            BuildableName = "Private Security Detail.app"
+            BlueprintName = "Private Security Detail"
+            ReferencedContainer = "container:Private Security Detail.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E99E69791D3A920A00D6AB1A"
-            BuildableName = "Personal Security Detail.app"
-            BlueprintName = "Personal Security Detail"
-            ReferencedContainer = "container:Personal Security Detail.xcodeproj">
+            BlueprintIdentifier = "C47F7DA11D3BD2D200FF80EA"
+            BuildableName = "Private Security Detail.app"
+            BlueprintName = "Private Security Detail"
+            ReferencedContainer = "container:Private Security Detail.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
