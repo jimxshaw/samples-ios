@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource {
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     // Duties arrays
     let dailyDuties = ["Patrol perimeter", "Inspect windows", "Inspect doors", "Inspect vehicles", "Monitor passing people", "Monitor passing vehicles"]
@@ -17,10 +17,12 @@ class ViewController: UIViewController, UITableViewDataSource {
     
     let sixMonthDuties = ["Accuracy drills", "Obstacle course"]
     
+    // How many sections are in our table view.
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 3
     }
     
+    // What's the number of rows in each table view section.
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         switch section {
         case 0:
@@ -57,6 +59,7 @@ class ViewController: UIViewController, UITableViewDataSource {
         
     }
     
+    // What's the title for each table view section.
     func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         switch section {
         case 0:
@@ -68,6 +71,11 @@ class ViewController: UIViewController, UITableViewDataSource {
         default:
             return "Duties"
         }
+    }
+    
+    // This method will be called whenever a table view row is clicked.
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        print("You clicked section: \(indexPath.section), row: \(indexPath.row)")
     }
 
     override func viewDidLoad() {
